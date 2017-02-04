@@ -6,6 +6,8 @@ This repository contains 13 class labels for both train and test dataset in NYUv
 
 - The training dataset (795 RGB images) can be obtained from [nyu_train_rgb](http://www.doc.ic.ac.uk/~ahanda/nyu_train_rgb.tgz) (277MB) while the test dataset (654 RGB images) can be obtained from [nyu_test_rgb](http://www.doc.ic.ac.uk/~ahanda/nyu_test_rgb.tgz) (227MB).
 
+- Important to remember that the label files are ordered but the rgb files are not. Though you can order the files using ``gprename``.
+
 ## How do I obtain the DHA features?
 
 Look for this in a corresponding [SUN RGB-D meta data repository](https://github.com/ankurhanda/sunrgbd-meta-data).
