@@ -12,3 +12,15 @@ Look for this in a corresponding [SUN RGB-D meta data repository](https://github
 
 ## How do I benchmark? 
 [getAccuracyNYU.m](https://github.com/ankurhanda/SceneNetv1.0/blob/master/getAccuracyNYU.m) available in the [SceneNetv1.0](https://github.com/ankurhanda/SceneNetv1.0/) repository allows you to obtain the avereage global and class accuracies. 
+
+## What are the classes and where is the mapping form the class number to the class name?
+
+The mapping is also available at [SceneNetv1.0](https://github.com/ankurhanda/SceneNetv1.0/) repository.
+
+
+
+
+
+
+
+
