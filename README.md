@@ -10,7 +10,7 @@ This repository contains 13 class labels for both train and test dataset in NYUv
 
 ## How do I obtain the DHA features?
 
-Look for this in a corresponding [SUN RGB-D meta data repository](https://github.com/ankurhanda/sunrgbd-meta-data). You will need rotation matrices for each training and test image. They are available here at [**camera_rotations_NYU.txt**](https://github.com/ankurhanda/nyuv2-meta-data/blob/master/camera_rotations_NYU.txt). These matrices are used to align the floor normal vector to the canonical gravity vector. The indices for rotation matrices corresponding to training and test data are in **splits.mat**. Remember that labels are ordered *i.e.* training labels files are named with indices 1 to 795 and similarly for test dataset. 
+Look for this in a corresponding [SUN RGB-D meta data repository](https://github.com/ankurhanda/sunrgbd-meta-data). You will need rotation matrices for each training and test image. They are available here at [**camera_rotations_NYU.txt**](https://github.com/ankurhanda/nyuv2-meta-data/blob/master/camera_rotations_NYU.txt). These matrices are used to align the floor normal vector to the canonical gravity vector. There are 1449 rotation matrices in total and the indices for these matrices corresponding to training and test data are in **splits.mat**. Remember that labels are ordered *i.e.* training labels files are named with indices 1 to 795 and similarly for test dataset. 
 
 ## How do I benchmark? 
 [getAccuracyNYU.m](https://github.com/ankurhanda/SceneNetv1.0/blob/master/getAccuracyNYU.m) available in the [SceneNetv1.0](https://github.com/ankurhanda/SceneNetv1.0/) repository allows you to obtain the avereage global and class accuracies. 
